@@ -1,0 +1,26 @@
+body, html {
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: var(--background-primary);
+}
+
+:root {
+
+  --white: #ffffff;
+  --york-red: #e31837;
+  --york-red-dark: #9A0100;
+  --york-red-dark-less: #ab0908;
+  --york-blue: #004583;
+  --background-primary: #f1f1f1;
+  --container-primary: #ffffff;
+  --container-secondary: #f8f8f8;
+  --text-dark-1: #292933;
+  --text-dark-2: #54545e;
+  --text-dark-3: #353541;
+  --container-shadow: 0px 4px 54px -10px rgba(0, 0, 0, 0.20), 12px 12px 5px -10px rgba(255, 0, 30, 0.05);
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

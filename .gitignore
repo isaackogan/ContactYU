@@ -1,0 +1,5 @@
+_LEGACY
+node_modules
+.env
+.idea
+dist

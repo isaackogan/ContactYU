@@ -1,0 +1,140 @@
+{
+  "default": {
+    "title": "Employee",
+    "address": "4700 Keele Street, Toronto, ON, M3J 1P3",
+    "image_url": "/images/yu_logo.png"
+  },
+  "darrickc": {
+    "first_name": "Darrick",
+    "last_name": "Chin",
+    "title": "Manager, YU-card Office, Ancillary Services",
+    "address": "201 William Small Centre, 4700 Keele Street Toronto ON, M3J 1P3",
+    "work": "416-736-2100 ext 22290",
+    "mobile": "416-206-2644",
+    "email": "darrickc@yorku.ca",
+    "atlas_id": 142018,
+    "ms_bookings_url": null,
+    "image_url": null
+  },
+  "gautam": {
+    "first_name": "Gautam",
+    "last_name": "Janardhanan",
+    "title": "Solutions & Relationship Manager, Business Solutions Group, UIT",
+    "address": "110 Steacie Science Building, 4700 Keele Street, Toronto, ON, M3J 1P3",
+    "building": "Steacie Science",
+    "work": "416 736 2100 ext 22709",
+    "mobile": "416-668-4285",
+    "email": "gautam@yorku.ca",
+    "atlas_id": 128924,
+    "image_url": "https://i.imgur.com/wSDY2Y5.png",
+    "ms_bookings_url": "https://outlook.office.com/bookwithme/user/474f09bdc61e4d58b4688fd4fa5f18e4@yorku.ca?anonymous&ep=plink"
+  },
+  "achana": {
+    "first_name": "Amar",
+    "last_name": "Chana",
+    "title": "Manager, Business Management & eCommerce Applications",
+    "address": "174 West Office Building, 4700 Keele Street, Toronto, ON, M3J 1P3",
+    "work": "416 736 2100 ext 44110",
+    "mobile": "416-803-2311",
+    "email": "achana@yorku.ca",
+    "atlas_id": 129031,
+    "ms_bookings_url": "https://media.licdn.com/dms/image/C5603AQHdZHXQDSV8SQ/profile-displayphoto-shrink_800_800/0/1516974999359?e=2147483647&v=beta&t=eecClFzMCwYMwp9AS1bDvMugD0I2V9Wge2C97IPLGpg"
+  },
+  "barbisan": {
+    "first_name": "Anthony",
+    "last_name": "Barbisan",
+    "title": "Assitant Vice-President, University Services Centre",
+    "address": "1045D Physical Resource Building, 4700 Keele Street, Toronto, ON, M3J 1P3",
+    "work": "416 650 8020",
+    "mobile": null,
+    "email": "barbisan@yorku.ca",
+    "atlas_id": 145327,
+    "ms_bookings_url": null,
+    "image_url": "https://i.imgur.com/wGseF7K.jpg"
+  },
+  "wattm": {
+    "first_name": "Tom",
+    "last_name": "Watt",
+    "title": "Interim Assistant Vice President, Ancillary Services",
+    "address": "207 William Small Centre, 4700 Keele Street, Toronto, ON, M3J 1P3",
+    "work": "416 736 5376",
+    "mobile": null,
+    "email": "wattm@yorku.ca",
+    "atlas_id": 142060,
+    "ms_bookings_url": null,
+    "image_url": "https://daycare.info.yorku.ca/files/2022/03/Tom-Watt-150x150.png?x72233"
+  },
+  "bstrom": {
+    "first_name": "Brad",
+    "last_name": "Strom",
+    "title": "Chief Information Officer, University Information Technology",
+    "address": "108D Steacie Science and Engineering Building, 4700 Keele Street, Toronto, ON, M3J 1P3",
+    "work": "416 736 5818",
+    "mobile": null,
+    "email": "bstrom@yorku.ca",
+    "atlas_id": 144620,
+    "ms_bookings_url": null,
+    "image_url": "https://www.yorku.ca/uit/wp-content/uploads/sites/300/2022/02/Brad-2.jpg"
+  },
+  "layton": {
+    "first_name": "Mike",
+    "last_name": "Layton",
+    "title": "Chief Sustainability Officer, Vice-President Finance & Administration",
+    "address": "948 Kaneff Tower, 4700 Keele Street, Toronto, ON, M3J 1P3",
+    "work": "416 736 2100 ext 22890",
+    "mobile": null,
+    "email": "layton@yorku.ca",
+    "atlas_id": 145674,
+    "ms_bookings_url": null,
+    "image_url": "https://euc.yorku.ca/wp-content/uploads/2023/03/MikeLayton.jpg"
+  },
+  "rkagan": {
+    "first_name": "Ramon",
+    "last_name": "Kagan",
+    "title": "Director, Operations Excellence & Institutional Applications, UIT",
+    "address": "110A Steacie Science Building, 4700 Keele Street, Toronto, ON, M3J 1P3",
+    "work": "416 736 2100 ext 44657",
+    "mobile": "416 660 1391",
+    "email": "rkagan@yorku.ca",
+    "atlas_id": 138117,
+    "ms_bookings_url": null,
+    "image_url": "https://www.yorku.ca/uit/wp-content/uploads/sites/300/2021/07/Ramon-Kagan.jpg"
+  },
+  "president": {
+    "first_name": "Rhonda",
+    "last_name": "Lenton",
+    "title": "President, York University",
+    "address": "1050 Kaneff Tower, 4700 Keele Street, Toronto, ON, M3J 1P3",
+    "work": "416 736 5200",
+    "mobile": null,
+    "email": "president@yorku.ca",
+    "atlas_id": 137266,
+    "ms_bookings_url": null,
+    "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTuLmPlEPyI6gouy9Eg8qNb_SxyqF1QI95nAWCxrCkYDWpyZZHW"
+  },
+  "thibaud": {
+    "first_name": "Patrick",
+    "last_name": "Thibaudeau",
+    "title": "Director IT Innovation & Academic Technologies",
+    "address": null,
+    "atlas_id": 133136,
+    "email": "thibaud@yorku.ca",
+    "ms_bookings_url": null,
+    "image_url": "https://www.yorku.ca/uit/wp-content/uploads/sites/300/2021/07/Patrick.png",
+    "work": "+1 (647) 907-8942",
+    "mobile": "+1 (647) 907-8942"
+  },
+  "koganisa": {
+    "first_name": "Isaac",
+    "last_name": "Kogan",
+    "title": "Assistant Programmer, WSS Student @ IT Innovation, York UIT",
+    "address": "88 The Pond Rd, North York, ON M3J 2S5",
+    "building": "Victor Phillip Dahdaleh",
+    "email": "koganisa@yorku.ca",
+    "ms_bookings_url": null,
+    "image_url": "https://i.imgur.com/om46Ii4.jpg",
+    "work": "+1 (647) 907-8942",
+    "mobile": "+1 (647) 907-8942"
+  }
+
+}

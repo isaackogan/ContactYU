@@ -107,7 +107,7 @@ class Page extends Component<IHomeProps, IHomeState> {
 
     onLoadError() {
         if (import.meta.env.PROD) {
-            window.location.href = import.meta.env.VITE_LOAD_FAIL_REDIRECT;
+            //window.location.href = import.meta.env.VITE_LOAD_FAIL_REDIRECT;
         }
     }
 

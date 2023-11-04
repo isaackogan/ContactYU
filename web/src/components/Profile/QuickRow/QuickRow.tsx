@@ -1,4 +1,4 @@
-import {Component} from "react";
+import React, {Component} from "react";
 import {styled} from "styled-components";
 import {ProfileData} from "../../../pages/Profile";
 import {QuickItem} from "./QuickItem";
@@ -21,7 +21,7 @@ interface IState {
 export default class QuickRow extends Component<IProps, IState> {
 
     data: ProfileData;
-    private readonly items: Array<typeof QuickItem>
+    private readonly items: Array<any>
 
     constructor(props: IProps) {
         super(props);
@@ -29,7 +29,7 @@ export default class QuickRow extends Component<IProps, IState> {
         this.items = this.props.items;
     }
 
-    loadQuickItems() {
+    loadQuickItems(): React.JSX.Element | null {
         const quickItems = [];
 
         for (let Component of this.items) {
@@ -43,21 +43,26 @@ export default class QuickRow extends Component<IProps, IState> {
 
         }
 
-        return quickItems;
+        if (quickItems.length < 1) {
+            return null;
+        }
+
+        return (
+            <>
+                {quickItems}
+            </>
+        );
 
     }
 
     render() {
 
         const items = this.loadQuickItems();
-
-        if (items.length < 1) {
-            return <div />
-        }
+        if (!items) return <div />
 
         return (
             <Container>
-                {this.loadQuickItems()}
+                {items}
             </Container>
         );
     }

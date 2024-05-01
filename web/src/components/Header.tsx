@@ -13,24 +13,31 @@ const Container = styled.div`
 
 const Logo = styled.img`
   width: 125px;
-  filter: drop-shadow(2px 1px var(--york-red-dark-less));
+//  filter: drop-shadow(2px 1px var(--york-red-dark-less));
 `;
 
 const HeaderText = styled.span`
   color: var(--white);
   font-weight: 500;
-  text-shadow: 1px 1px var(--york-red-dark-less);
+  // text-shadow: 1px 1px var(--york-red-dark-less);
   font-size: 20px;
+  text-align: center;
+  margin-bottom: 0;
 `;
+
+const BetaText = styled.span`
+  font-size: 10px;
+  display: block;
+;`
 
 export default class Header extends Component {
 
     render() {
         return (
             <Container>
-                <Logo src={"/images/logo-white-2.png"} />
+                <Logo src={"/images/logo-white.png"} />
                 <HeaderText>
-                    ContactYU
+                    ContactYU<BetaText>Virtual Business Cards</BetaText>
                 </HeaderText>
             </Container>
         );

@@ -5,6 +5,7 @@ import {ContactWork} from "./ContactItems/ContactWork";
 import {ContactMobile} from "./ContactItems/ContactMobile";
 import {ContactEmail} from "./ContactItems/ContactEmail";
 import {ContactItemType} from "./ContactItem";
+import {ContactLinkedIn} from "./ContactItems/ContactLinkedIn";
 
 const Container = styled.div`
   display: flex;
@@ -32,7 +33,8 @@ export default class ContactColumn extends Component<IProps, IState> {
         this.items = [
             ContactWork,
             ContactMobile,
-            ContactEmail
+            ContactLinkedIn,
+            ContactEmail,
         ]
     }
 
